@@ -8,11 +8,6 @@ import { useNavigate } from 'react-router-dom'
 
 const experiencesArray = [
   {
-    date: "February 2025 -  Till date",
-    organization: "Courtney Sessions, U.S.A",
-    position: "FullStack Developer"
-  },
-  {
     date: "October 2024 - Till date",
     organization: "Djeffs Source, Lagos State, Nigeria",
     position: "FullStack Developer"
@@ -20,7 +15,12 @@ const experiencesArray = [
   {
     date: "March 2025 - Till date",
     organization: "Elrey Technologies, F.C.T, Nigeria",
-    position: "Founder/Creative Director"
+    position: "Creative Director"
+  },
+  {
+    date: "February - December 2025",
+    organization: "Courtney Sessions, U.S.A",
+    position: "FullStack Developer"
   },
   {
     date: "May 2024 - Jan. 2025",
