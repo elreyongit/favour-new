@@ -13,6 +13,7 @@ import portfolio12 from '../assets/portfolio12.png'
 import portfolio13 from '../assets/portfolio13.png'
 import portfolio14 from '../assets/portfolio14.png'
 import portfolio15 from '../assets/portfolio15.png'
+import portfolio16 from '../assets/portfolio16.png'
 import Star2 from '../assets/star-2.png';
 
 const Portfolio = () => {
@@ -37,6 +38,13 @@ const Portfolio = () => {
       githubUrl: "https://github.com/fahyvor",
       siteUrl: "https://bumasel.com/",
       animation: "zoom-out"
+    },
+    {
+      id: 16,
+      image: portfolio16,
+      githubUrl: "https://github.com/Fahyvor/url-shortner-ui",
+      siteUrl: "https://url-shortner-mbwh.onrender.com/",
+      animation: "flip-left"
     },
     {
       id: 15,
@@ -147,7 +155,7 @@ const Portfolio = () => {
 
             <div className='px-3 flex gap-3'>
               <a href={item.githubUrl} className='bg-black rounded-xl px-3 drop-shadow-lg'>Github</a>
-              <a href={item.siteUrl} className=''>
+              <a href={item.siteUrl} className='' target="_blank" rel="noopener noreferrer">
                 {item.linkText || 'Check Out The Site'}
               </a>
             </div>
