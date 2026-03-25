@@ -43,7 +43,7 @@ const Portfolio = () => {
       id: 16,
       image: portfolio16,
       githubUrl: "https://github.com/Fahyvor/url-shortner-ui",
-      siteUrl: "https://oxid-labs.click/",
+      siteUrl: "https://oxidlabs.click/",
       animation: "flip-left"
     },
     {
