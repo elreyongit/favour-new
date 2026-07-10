@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
 
 export const useSEO = ({
-  title = 'Favour Okafor - Blockchain & Web3 Developer',
+  title = 'Favour Okafor - Full-Stack & Blockchain Developer',
   description = 'Blockchain developer specializing in Web3, DeFi, and smart contracts.',
   keywords = 'blockchain, web3, solidity, defi',
   ogType = 'website',
-  ogImage = 'https://favour-portfolio-neon.vercel.app/og-image.png',
-  ogUrl = 'https://favour-portfolio-neon.vercel.app/',
-  twitterHandle = '@fahyvor',
-  canonical = 'https://favour-portfolio-neon.vercel.app/'
+  ogImage = 'https://favourokafor.cv/og-image.png',
+  ogUrl = 'https://favourokafor.cv/',
+  twitterHandle = '@iamfavour3',
+  canonical = 'https://favourokafor.cv/'
 } = {}) => {
   useEffect(() => {
     // Update title
@@ -71,12 +71,12 @@ export const generatePersonSchema = (overrides = {}) => {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Favour Okafor',
-    jobTitle: 'Blockchain Developer & Web3 Researcher',
-    url: 'https://favour-portfolio-neon.vercel.app/',
+    jobTitle: 'Full-Stack & Blockchain Developer',
+    url: 'https://favourokafor.cv/',
     sameAs: [
       'https://github.com/fahyvor',
       'https://linkedin.com/in/fahyvor',
-      'https://twitter.com/fahyvor'
+      'https://twitter.com/iamfavour3'
     ],
     email: 'favourokafor30@gmail.com',
     knowsAbout: [

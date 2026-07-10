@@ -62,13 +62,15 @@ const experiencesArray = [
 
 
 const About = () => {
-  useSEO({
-    title: 'About Favour Okafor - Blockchain Developer & Web3 Expert',
-    description: 'Learn about Favour Okafor, a blockchain developer and Web3 researcher with 5+ years of experience in Solidity, DeFi, and smart contract development.',
-    keywords: 'about favour, blockchain experience, web3 developer, solidity expert, DeFi development experience',
-    ogUrl: 'https://favour-portfolio-neon.vercel.app/about',
-    canonical: 'https://favour-portfolio-neon.vercel.app/about'
-  });
+    useSEO({
+      title: "About Favour Okafor - Full-Stack Software Engineer",
+      description:
+        "Learn about Favour Okafor, a Full-Stack Software Engineer specializing in React, Next.js, Node.js, TypeScript, scalable web applications, modern backend systems, and cloud-powered solutions.",
+      keywords:
+        "Favour Okafor, Full-Stack Software Engineer, Full-Stack Developer, React Developer, Next.js Developer, Node.js Developer, TypeScript, JavaScript, Express.js, PostgreSQL, MongoDB, Tailwind CSS, Web Development, Software Engineer Nigeria",
+      ogUrl: "https://favourokafor.cv/about",
+      canonical: "https://favourokafor.cv/about",
+    });
 
   const navigate = useNavigate();
   

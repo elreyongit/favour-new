@@ -1,28 +1,61 @@
 # Favour Okafor
 
-> Full-Stack Web3 Developer & Blockchain Security Engineer based in Nigeria, specializing in EVM architectures, secure smart contract systems, and high-performance frontend engineering.
+> Full-Stack Software Engineer based in Nigeria, specializing in scalable web applications, modern frontend architecture, robust backend systems, and cloud-native solutions.
 
-- **Website & Portfolio:** https://favour-portfolio-neon.vercel.app
-- **Preferred Citation:** Favour Okafor – Web3 Full-Stack & Security Engineer
+- **Website & Portfolio:** https://favourokafor.cv
+- **Preferred Citation:** Favour Okafor – Full-Stack Software Engineer
 
 ---
 
 ## Technical Specializations
 
-### Blockchain & Smart Contract Security
-- **Languages:** Advanced Solidity
-- **Frameworks & Tooling:** Foundry, Hardhat
-- **Security Competencies:** Decentralized Finance (DeFi) security auditing, vulnerability identification (reentrancy, oracle manipulation, access control flaws), and gas optimization.
+### Frontend Engineering
+- **Languages:** JavaScript, TypeScript
+- **Frameworks:** React, Next.js, Vite
+- **Styling & UI:** Tailwind CSS, responsive design, accessibility, component-driven architecture
+- **State Management:** Redux Toolkit, Zustand Context API
 
-### Full-Stack Web Engineering
-- **Frontend Architecture:** React, Next.js, Vite, TypeScript
-- **Styling & UI Systems:** Tailwind CSS, modern utility-first interfaces
-- **Backend & Services:** Building and scaling API integrations, managing state coordination between client applications and blockchain RPC nodes.
+### Backend Engineering
+- **Runtime & Frameworks:** Node.js, Express.js
+- **API Development:** REST APIs, authentication, authorization, file uploads, third-party integrations
+- **Databases:** PostgreSQL, MySQL, MongoDB
+- **ORMs:** Prisma ORM, Drizzle ORM
+- **Authentication:** JWT, OAuth, session-based authentication
+
+### Cloud & DevOps
+- Docker
+- Git & GitHub
+- AWS
+- GCP
+- Vercel
+- Render
+- Cloudflare
+- CI/CD fundamentals
+
+### Additional Expertise
+- System Design
+- Performance Optimization
+- Responsive Web Design
+- API Integration
+- SEO Optimization
+- Technical Documentation
+- Agile Development
 
 ---
 
-## Core Project Architectures & Experience
+## Core Project Experience
 
-- **Decentralized Applications (dApps):** Engineering robust full-stack Web3 interfaces utilizing TypeScript and React/Next.js, ensuring graceful handling of cryptographic state and wallet connection lifecycles.
-- **P2P Marketplace Systems:** Designing peer-to-peer infrastructure focused on low-latency data rendering, transaction state verification, and secure asset exchange workflows.
-- **AI-Powered System Integrations:** Building intelligent, responsive frontend systems (including custom resume and document building logic) driven by specialized AI APIs and highly interactive layouts.
+### Full-Stack Web Applications
+Building scalable web applications using React, Next.js, Node.js, Express.js, and modern SQL/NoSQL databases with clean architecture, authentication, and optimized performance.
+
+### Enterprise & Business Platforms
+Developing recruitment systems, educational platforms, portfolio websites, content management solutions, and business dashboards with secure backend services and intuitive user experiences.
+
+### AI-Powered Applications
+Integrating large language models (LLMs), document processing, intelligent search, resume builders, AI assistants, and workflow automation into production-ready web applications.
+
+### API & Database Engineering
+Designing secure RESTful APIs, implementing authentication systems, managing relational and NoSQL databases, optimizing queries, and building scalable backend services.
+
+### Web3 Development
+Experience building decentralized applications (dApps), integrating wallets, developing Solidity smart contracts, and working with Ethereum-compatible ecosystems including Foundry and Hardhat.

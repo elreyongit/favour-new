@@ -4,7 +4,7 @@ Disallow: /admin
 Disallow: /.git
 
 # Sitemaps
-Sitemap: https://favour-portfolio-neon.vercel.app/sitemap.xml
+Sitemap: https://favourokafor.cv/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1

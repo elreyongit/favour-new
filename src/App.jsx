@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 import About from './pages/About'
 import Credentials from './pages/Credentials'
+import NotFound from './pages/404Page'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { gsap } from 'gsap';
@@ -43,6 +44,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
           <Route path='/credentials' element={<Credentials />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>

@@ -13,12 +13,12 @@ import { useSEO } from '../utils/SEO';
 
 const Body = () => {
   useSEO({
-    title: 'Blockchain & Web3 Developer | Solidity Expert | DeFi Solutions - Favour Okafor',
-    description: 'Favour Okafor - Senior blockchain developer specializing in Solidity, DeFi, Web3 smart contracts, and decentralized applications. 5+ years building blockchain solutions.',
-    keywords: 'blockchain developer, web3 developer, solidity, DeFi, smart contracts, ethereum, web3, dApps, blockchain security, cryptocurrency',
-    ogImage: 'https://favour-portfolio-neon.vercel.app/og-image.png',
-    ogUrl: 'https://favour-portfolio-neon.vercel.app/',
-    canonical: 'https://favour-portfolio-neon.vercel.app/'
+    title: 'Full-Stack Web & Blockchain Developer | Solidity Expert | DeFi Solutions - Favour Okafor',
+    description: 'Favour Okafor - Full Stack Software Engineer specializing in React, Next.js, TypeScript, Node.js, Express, Django, PostgreSQL, AWS and Solidity. Building scalable web applications, APIs and blockchain solutions.',
+    keywords: 'blockchain developer, web3 developer, solidity, DeFi, smart contracts, ethereum, web3, dApps, blockchain security, cryptocurrency, full-stack development, react, next.js, typescript, node.js, express, django, postgresql, aws, devops, software engineering, software development, software architecture, software design patterns, software testing, software deployment, software maintenance, software optimization, software scalability, software performance, software security, software best practices',
+    ogImage: 'https://favourokafor.cv/og-image.png',
+    ogUrl: 'https://favourokafor.cv/',
+    canonical: 'https://favourokafor.cv/'
   });
 
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ const Body = () => {
       <div className="w-full lg:flex-row pt-20 flex md:flex-row lg:mb-0 mb-5">
         <div className="marquee w-full rounded-full overflow-hidden whitespace-nowrap bg-dark-favour p-3 px-4">
             <p className='text-sm animate-marquee'>
-              | BLOCKCHAIN PROJECTS | SMART CONTRACTS | WEB3 SOLUTIONS | DEFI DEVELOPMENT | BLOCKCHAIN PROJECTS | SMART CONTRACTS | WEB3 SOLUTIONS | DEFI DEVELOPMENT | SYSTEM DESIGN | DISTRIBUTED SYSTEMS | HIGH-AVAILABILITY ARCHITECTURE | PERFORMANCE OPTIMIZATION | SECURE APPLICATION DEVELOPMENT | CLEAN CODE PRACTICES | SOFTWARE ENGINEERING EXCELLENCE |
+              FULL-STACK DEVELOPMENT | FRONTEND ENGINEERING | BACKEND DEVELOPMENT | WEB APPLICATIONS | REST APIs | RESPONSIVE DESIGN | NEXT.JS | REACT | NODE.JS | TYPESCRIPT | POSTGRESQL | CLOUD DEPLOYMENT | SYSTEM DESIGN | PERFORMANCE OPTIMIZATION | SOFTWARE ENGINEERING |
             </p>
           </div>
       </div>
@@ -140,12 +140,12 @@ const Body = () => {
           </div>
 
           <div className="lg:w-1/3 md:w-1/3 w-full rounded-xl bg-zinc-900 text-center px-5 lg:py-2 md:py-2 py-8 flex flex-col justify-center">
-            <p className="text-4xl font-bold">90+</p>
+            <p className="text-4xl font-bold">10+</p>
             <p className='font-bold opacity-40 text-sm'>CLIENTS WORLDWIDE</p>
           </div>
 
           <div className="lg:w-1/3 md:w-1/3 w-full rounded-xl bg-zinc-900 text-center px-5 lg:py-2 md:py-2 py-8 flex flex-col justify-center">
-            <p className="text-4xl font-bold">200+</p>
+            <p className="text-4xl font-bold">20+</p>
             <p className='font-bold opacity-40 text-sm'>PROJECTS DELIVERED</p>
           </div>
         </article>

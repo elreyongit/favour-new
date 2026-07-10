@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ElreyLogo  from '../assets/elreyLogo.png'
 import { FaBars } from 'react-icons/fa'
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi'
+import { BiBook, BiMessageSquareDetail, BiBriefcase } from 'react-icons/bi'
 import { MdOutlineCancel } from "react-icons/md";
 import { useNavigate } from 'react-router-dom'
 // import { RiServiceLine } from 'react-icons/ri'
@@ -30,26 +30,109 @@ const Nav = () => {
       <a href="/about" className='#about hover:font-bold'>About</a>
       <a href="/portfolio" className="hover:font-bold">Portfolio</a>
       <a href="/contact" className="hover:font-bold" >Contact</a>
+      <a href="/services" className="hover:font-bold" >Services</a>
 
       <div className='bg-dark-favour text-white p-3 whitespace-nowrap px-5 rounded-lg cursor-pointer hover:bg-white hover:text-black' onClick={() => navigate('/contact')}>
         <p>Let&apos;s Talk</p>
       </div>
      </div>
 
-     <div className='mobile_nav_section lg:hidden md:hidden flex'>
-      {showNav ? <MdOutlineCancel size={30} onClick={handleNavClick} /> : <FaBars size={30} onClick={handleNavClick} /> }
-      {
-        showNav ? (
-          <div className='flex flex-col gap-3 items-center absolute backdrop-blur bg-black bg-opacity-90 px-4 right-4 py-6 border-[1px] border-dark-favour w-full top-12'>
-          <a href="/"
-           className='active  text-white p-2 rounded-full flex gap-2 items-center'><AiOutlineHome size={20}/>Home</a>
-          <a href="/portfolio" className='active  text-white p-2 rounded-full flex gap-2 items-center'><AiOutlineUser size={20}/> Portfolio</a>
-          <a href="/about" className='active  text-white p-2 rounded-full flex gap-2 items-center'><BiBook size={20}/>About</a>
-          <a href="/contact" className='active  text-white p-2 rounded-full flex gap-2 items-center'><BiMessageSquareDetail size={20}/>Conact</a>
-          </div>
-        ) : null
-      }
-     </div>
+     <div className="mobile_nav_section lg:hidden md:hidden flex items-center">
+      <button
+        onClick={handleNavClick}
+        className="z-[60]"
+        aria-label={showNav ? "Close Menu" : "Open Menu"}
+      >
+        {showNav ? (
+          <MdOutlineCancel size={30} />
+        ) : (
+          <FaBars size={30} />
+        )}
+      </button>
+
+      {/* Overlay */}
+      <div
+        onClick={handleNavClick}
+        className={`fixed inset-0 bg-black/50 transition-opacity duration-300 z-40 ${
+          showNav
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
+      />
+
+      {/* Mobile Menu */}
+      <div
+        className={`fixed top-0 right-0 h-screen w-[80%] max-w-sm bg-black/95 backdrop-blur-lg border-l border-dark-favour z-50
+          transform transition-transform duration-300 ease-in-out
+          ${showNav ? "translate-x-0" : "translate-x-full"}`}
+      >
+        <div className="flex flex-col pt-24 px-6 gap-2">
+          <a
+            href="/"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <AiOutlineHome size={22} />
+            Home
+          </a>
+
+          <a
+            href="/portfolio"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <AiOutlineUser size={22} />
+            Portfolio
+          </a>
+
+          <a
+            href="/about"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <BiBook size={22} />
+            About
+          </a>
+
+          <a
+            href="/services"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <BiBook size={22} />
+            Services
+          </a>
+
+          <a
+            href="/contact"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <BiMessageSquareDetail size={22} />
+            Contact
+          </a>
+
+          <a
+            href="/services"
+            onClick={() => setShowNav(false)}
+            className="flex items-center gap-3 p-4 border-b border-slate-700 hover:bg-white/10 rounded-md"
+          >
+            <BiBriefcase size={22} />
+            Services
+          </a>
+
+          <button
+            onClick={() => {
+              setShowNav(false);
+              navigate("/contact");
+            }}
+            className="mt-6 bg-dark-favour text-white py-3 rounded-lg hover:bg-white hover:text-black transition-colors"
+          >
+            Let&apos;s Talk
+          </button>
+        </div>
+      </div>
+    </div>
     </div>
   )
 }
