@@ -114,8 +114,14 @@ const About = () => {
             <h2 className='text-2xl font-bold mb-6'>EDUCATION & CERTIFICATIONS</h2>
             <div className="experience_container flex flex-col gap-8 mt-9">
               <div className="experience_card flex flex-col">
+                <p className="duration text-gray-500 font-medium">2026</p>
+                <p className='organization lg:text-2xl md:text-2xl text-lg font-medium'>Smart Contract Security</p>
+                <p className='position text-gray-500'>Cyfrin Updraft</p>
+              </div>
+
+              <div className="experience_card flex flex-col">
                 <p className="duration text-gray-500 font-medium">2018 - 2022</p>
-                <p className='organization lg:text-2xl md:text-2xl text-lg font-medium'>Bachelor Degree in Computer Science</p>
+                <p className='organization lg:text-2xl md:text-2xl text-lg font-medium'>Bachelors Degree in Computer Science</p>
                 <p className='position text-gray-500'>Micheal Okpara University of Agriculture, Umudike</p>
               </div>
 
