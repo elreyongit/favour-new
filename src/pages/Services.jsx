@@ -32,7 +32,7 @@ const Services = () => {
   });
 
   return (
-    <main className="lg:px-24 md:px-20 px-6 lg:pt-28 pb-8 w-full flex lg:flex-row flex-col gap-8">
+    <main className="lg:px-24 md:px-20 px-6 pb-8 w-full flex flex-col gap-8">
       <section className="w-full flex lg:flex-row md:flex-row flex-col gap-4">
         <aside className="bg-dark-favour rounded-3xl px-10 lg:w-1/3 md:w-1/3 w-full flex flex-col  gap-6 py-16 my-auto">
           <div className="flex items-center gap-4">

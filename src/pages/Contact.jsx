@@ -16,6 +16,7 @@ const Contact = () => {
     message: "",
     from_name: "",
   });
+  const [sending, setSending] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,13 +25,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setSending(true);
 
     emailjs
       .send(
         "fahyvor",      
         "template_6djgdrq",
         formData,
-        "hXP7RuD6vQ2DInurj" 
+        "-yN7kZkt6uAbygR4I" 
       )
       .then(
         () => {
@@ -39,7 +41,15 @@ const Contact = () => {
         () => {
           toast.error("An error occurred, please try again.");
         }
-      );
+      ).finally(() => {
+        setSending(false);
+        setFormData({
+          uers_name: "",
+          user_email: "",
+          message: "",
+          from_name: "",
+        });
+      });
   };
 
   return (
@@ -133,7 +143,7 @@ const Contact = () => {
               <input type='text' name='from_name' value={formData.from_name} onChange={handleChange}  className='p-3 rounded-lg bg-zinc-800' placeholder='Your Subject *'/>
               <textarea rows="7" name="message" value={formData.message} onChange={handleChange} className='p-3 rounded-lg bg-zinc-800 h-64' placeholder='Your Message *'/>
 
-              <button className='bg-zinc-800 p-2 rounded-lg hover:bg-white hover:text-zinc-800 cursor-pointer'>Send Message</button>
+              <button className='bg-zinc-800 p-2 rounded-lg hover:bg-white hover:text-zinc-800 cursor-pointer' disabled={sending}>{sending ? "Sending..." : "Send Message"}</button>
             </form>
 
         </div>
