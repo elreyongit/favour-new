@@ -14,10 +14,10 @@ const experienceArray = [
         description: "Assumed full-stack responsibilities to deliver end-to-end features, optimize complex document-processing pipelines, and build intuitive user interfaces. Scaled backend infrastructure using Python and Django to ingest, parse, and format heavy legal documents for AI analysis while ensuring low latency and high system reliability."
     },
     {
-        duration: "August. 2025 - Till Date",
+        duration: "Aug. 2025 - Present",
         company: "Terraskills Learning Systems, F.C.T, Nigeria",
-        position: "Junior Facilitator / Full Stack Developer",
-        description: "Works as a Full Stack Developer, where I am responsible for developing end-to-end web applications. I contribute to both front-end and back-end development, ensuring seamless user experiences and efficient system performance. Additionally, I play a critical roles in enhancing the functionality and scalability of products"
+        position: "Junior Facilitator / FullStack Developer",
+        description: "Build and maintain full-stack internal tools and web applications while facilitating technical training programs. Design modern curriculum and deliver hands-on instruction in backend systems, database management, and web development, while continuing to optimize core software functionality and system efficiency."
     },
     {
         duration: "May. 2024 - Jan. 2025",
